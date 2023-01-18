@@ -1,8 +1,11 @@
-import React from 'react'
+import './App.css'
+import Dishes from './Components/DishesComponents/Dishes'
 
 function App() {
   return (
-    <div>App</div>
+    <div className='App'>
+      <Dishes/>
+    </div>
   )
 }
 
