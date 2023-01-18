@@ -7,7 +7,14 @@
 
 .App {
   display: flex;
-  flex-direction: column;
-  justify-content: center;
-  align-items:center;
+  justify-content: space-around;
+}
+
+body {
+  background-color: #161616;
+}
+
+.block {
+  background-color: rgba(255, 255, 255, 0.5);
+  padding: 20px;
 }
