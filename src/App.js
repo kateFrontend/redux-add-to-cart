@@ -7,11 +7,11 @@ function App() {
   return (
     <div className="App">
       <div className="block">
-        <Dishes />
+        <Cart />
         <AllCategories />
       </div>
       <div className="block">
-      <Cart />
+        <Dishes />
       </div>
     </div>
   );

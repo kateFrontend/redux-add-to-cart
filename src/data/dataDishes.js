@@ -1,4 +1,4 @@
-const dishesData = [
+const dataDishes = [
   {
     id: 1,
     price: 25,
@@ -88,4 +88,4 @@ const dishesData = [
   },
 ];
 
-export default dishesData;
+export default dataDishes;
