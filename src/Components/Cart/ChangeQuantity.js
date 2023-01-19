@@ -4,11 +4,17 @@ function ChangeQuantity({ quantity, setQuantity }) {
     setQuantity(newQuantity);
   };
 
+  const removeQuantity = () => {
+    if (quantity <= 1) return;
+    const newQuantity = quantity - 1;
+    setQuantity(newQuantity);
+  }
+
   return (
     <div>
       <button onClick={addQuantity}>+</button>
       <span>{quantity}</span>
-      <button>-</button>
+      <button onClick={removeQuantity}>-</button>
     </div>
   );
 }
