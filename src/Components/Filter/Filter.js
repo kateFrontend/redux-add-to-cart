@@ -1,6 +1,8 @@
-function Filter() {
+function Filter({category}) {
   return (
-    <div>Filter - Component</div>
+    <p>
+        {category}
+    </p>
   )
 }
 
