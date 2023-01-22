@@ -1,10 +1,10 @@
 import { useSelector } from 'react-redux';
-import { getcartItems } from '../../redux/cartSlice';
+import { getCartItems } from '../../redux/cartSlice';
 import CartItem from './CartItem'
 
 function Cart() {
 
-  const cartItems = useSelector(getcartItems)
+  const cartItems = useSelector(getCartItems)
 
   return (
     <div>

@@ -1,11 +1,11 @@
 import { useState } from "react";
 import ChangeQuantity from "../Cart/ChangeQuantity";
 import { useDispatch } from "react-redux";
-import { addItemToCart } from '../../redux/cartSlice'
+import { addItemToCart } from "../../redux/cartSlice";
 
 function Dish({ dish }) {
   const [quantity, setQuantity] = useState(1);
-  const dispatch = useDispatch()
+  const dispatch = useDispatch();
 
   return (
     <div>
@@ -15,7 +15,7 @@ function Dish({ dish }) {
       <ChangeQuantity quantity={quantity} setQuantity={setQuantity} />
       <button
         onClick={() => {
-          dispatch(addItemToCart({ dish, quantity }));
+          dispatch(addItemToCart({dish, quantity}));
         }}
       >
         Add to cart

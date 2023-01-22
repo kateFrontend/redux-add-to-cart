@@ -1,7 +1,12 @@
-import React from "react";
+const CartItem = ({cartItem}) => {
 
-function CartItem({cartItem}) {
-  return <div>cartItem</div>;
+/* NEED TO FIX IT */
+
+  return (
+    <div>
+      <p>item{cartItem}</p>
+    </div>
+  )
 }
 
 export default CartItem;
