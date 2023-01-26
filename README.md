@@ -1,8 +1,8 @@
 # Redux "Add-To-Cart" App
 
-![cover](.../../src/assets/.jpg)
+![cover](.../../src/assets/35.jpg)
 
-View Demo <a href="" target="_blank">Redux "Add-To-Cart" App</a>
+View Demo <a href="https://react-redux-add-cart.netlify.app/" target="_blank">Redux "Add-To-Cart" App</a>
 
 ## 🦉 Main information
 
