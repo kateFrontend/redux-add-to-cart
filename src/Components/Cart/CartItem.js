@@ -1,12 +1,15 @@
-const CartItem = ({cartItem}) => {
+import dataDishes from "../../data/dataDishes";
 
-/* NEED TO FIX IT */
-
+const CartItem = ({ cartItem }) => {
+  //console.log(cartItem) to check
+  const dishes = dataDishes.find((item) => item.id === cartItem.dishId);
+  // console.log(dishes) to check
   return (
     <div>
-      <p>item{cartItem}</p>
+      <p>{dishes.name}</p>
+      <p>{cartItem.quantity} portion(s)</p>
     </div>
-  )
-}
+  );
+};
 
 export default CartItem;
