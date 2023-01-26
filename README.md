@@ -24,6 +24,10 @@ Built with React Redux and Redux Toolkit.
 
 - Javascript Reduce function https://medium.com/@sabih811/javascript-reduce-function-3189cc685201
 
+- React Lists and Keys https://reactjs.org/docs/lists-and-keys.html
+
+- Index as a key https://robinpokorny.com/blog/index-as-a-key-is-an-anti-pattern/
+
 ## ⏲️ Run project
 
 In the project directory, you can run:
