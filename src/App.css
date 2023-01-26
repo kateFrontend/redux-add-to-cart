@@ -42,3 +42,15 @@ img {
 .icon {
   width: 20px;
 }
+
+p, h1, h2, button {
+  font-family: 'Poppins', sans-serif;
+  font-size: 20px;
+}
+
+button {
+  background-color: #fdeb6b;
+  margin-top: 40px;
+  margin-left: 10px;
+  padding: 5px;
+}
