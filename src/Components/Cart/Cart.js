@@ -16,7 +16,7 @@ function Cart() {
       {cartItems.map((cartItem, index) => (
         <CartItem key={index} cartItem={cartItem} />
       ))}
-      <h3>TOTAL: ${totalPrice}</h3>
+      <h3 className="total">TOTAL: ${totalPrice}</h3>
     </div>
   );
 }
