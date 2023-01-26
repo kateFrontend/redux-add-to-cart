@@ -13,9 +13,7 @@ function Cart() {
         src="https://img.icons8.com/external-xnimrodx-lineal-color-xnimrodx/64/000000/external-shopping-cart-cyber-monday-xnimrodx-lineal-color-xnimrodx.png"
         alt="icon"
       />
-      {cartItems.map((cartItem, index) => (
-        <CartItem key={index} cartItem={cartItem} />
-      ))}
+      {cartItems.map(cartItem => <CartItem key={cartItem.id} cartItem={cartItem} /> )}
       <h3 className="total">TOTAL: ${totalPrice}</h3>
     </div>
   );
