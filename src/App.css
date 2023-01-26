@@ -1,10 +1,13 @@
 *{
+  margin: 0;
+  padding: 0;
+  box-sizing:border-box;
   font-family: Arial, Helvetica, sans-serif;
 }
 
 .App {
   display: flex;
-  justify-content: space-around;
+  justify-content: space-evenly;
 }
 
 body {
@@ -13,7 +16,7 @@ body {
 
 .block {
   background-color: rgba(255, 255, 255, 0.5);
-  padding: 20px;
+  padding: 50px 10px;
   text-align: center;
 }
 
@@ -43,14 +46,48 @@ img {
   width: 20px;
 }
 
+h1 {
+  margin-bottom: 20px;
+}
+
 p, h1, h2, button {
   font-family: 'Poppins', sans-serif;
-  font-size: 20px;
+  font-size: 20px;  
 }
 
 button {
   background-color: #fdeb6b;
-  margin-top: 40px;
-  margin-left: 10px;
+  margin: 20px 10px;
+  border: 1px solid white;
   padding: 5px;
+}
+
+@media screen and (max-width: 900px) {
+
+  p, h1, h2, button {
+    font-size: 15px;
+  }
+
+  img {
+    width: 350px;
+  }
+
+  .cartIcon {
+    width: 50px;
+  }
+}
+
+@media screen and (max-width: 500px) {
+
+  p, h1, h2, button {
+    font-size: 10px;
+  }
+
+  img {
+    width: 250px;
+  }
+
+  .cartIcon {
+    width: 30px;
+  }
 }
