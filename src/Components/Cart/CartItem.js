@@ -8,6 +8,7 @@ const CartItem = ({ cartItem }) => {
     <div>
       <p>{dishes.name}</p>
       <p>{cartItem.quantity} portion(s)</p>
+      <p>Price: ${dishes.price * cartItem.quantity}</p>
     </div>
   );
 };
